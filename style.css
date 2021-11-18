@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("full_english.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;    
+}
+
+.img { 
+    max-width:100%;
+    max-height:auto;
+}
+
+.container { 
+    display: flexbox;
+    flex-direction: row;
+
+}
+
+.navbar {
+    display:flex;
+    background-color: rgba(146, 61, 4, 0.788);
+    height: 30px;
+    justify-content: space-evenly;
+    padding: 40px;
+    align-items: center;
+
+}
+
+.navbar a {
+    color:rgb(red, green, blue);
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    color: royalblue;
+
+}
+
+
+
